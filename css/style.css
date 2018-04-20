@@ -1,0 +1,113 @@
+body {
+    background-image: url("../images/background.jpg")
+}
+
+/******************************HEADER*/
+
+.menuitem {
+    height: 50px;
+    background-color: #c1272d;
+    text-align: center;
+    font-family: 'Tillana', sans-serif;
+    padding-top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.active {
+   background-color: rgba(193,39,45,0.8); 
+}
+
+.menuitem:hover {
+    background-color: rgba(193,39,45,0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.logo_img {
+    width: 70px;
+    height: 70px;
+}
+
+.hiddendesktop {
+    display: inline-block;
+}
+
+.title {
+    display: inline;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Tillana', sans-serif;
+}
+
+.menuicon {
+    color: white;
+    font-size: 30px;
+}
+
+.menuoption {
+    color: white;
+    font-size: 20px;
+}
+
+.anchor:hover{
+    text-decoration: none;
+}
+
+#nav ul a li {
+    color: white;
+}
+
+
+/******************************section*/
+
+.pagetitle {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Tillana', sans-serif;
+}
+
+.topimage {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+/******************************MEDIA QUERIES*/
+@media (min-width: 768px) {
+    
+    .heading {
+        text-align: left;
+    }
+    
+    .logo_img{
+        width:100px;
+        height:100px;
+    }
+    
+    .title{
+        font-size: 60px;
+    }
+    
+    .menuicon {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .menuoption {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .hiddendesktop {
+        display: none;
+    }
+}
